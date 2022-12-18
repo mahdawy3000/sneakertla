@@ -1,0 +1,45 @@
+What is a feature file in Selenium and what are the cucumber Steps?
+
+A feature file is a feature where we write our tests in Gherkin steps 
+in such a way that the user or business owner is able to understand my test steps.
+
+What are those steps in gherkin?
+
+Given User navigates to the home page "https://www.nike.com/launch"
+Then user verifies if "Upcoming" tab exists
+Then user clicks on "Upcoming" tab
+And user verifies product name "Air Jordan 4" is displayed
+And user verifies product description "Craft" is displayed
+Then user clicks on the "Air Jordan 4"
+And user verifies product name "Air Jordan 4" is displayed
+And user verifies product description "Craft" is displayed
+And user verifies price item "$210.00"
+Then user verifies SKU Number "SKU: DV3742-021"
+
+Given User navigates to the home page "https://www.nike.com/launch"
+Then user verifies if "Upcoming" tab exists
+Then user clicks on "Upcoming" tab
+And user verifies product name "Nike SB Dunk Low x Concepts" is displayed
+And user verifies product description "Orange Lobster" is displayed
+Then user clicks on the "Nike SB Dunk Low x Concepts"
+And user verifies product name "Nike SB Dunk Low x Concepts" is displayed
+And user verifies product description "Orange Lobster" is displayed
+And user verifies price item "$120.00"
+Then user verifies SKU Number "SKU: FD8776-800"
+
+
+Given User navigates to the home page "https://www.nike.com/launch"
+Then user verifies if "In-Stock" tab exists
+Then user clicks on "In-Stock" tab
+And user verifies product name "Air Force 1 x Ambush" is displayed
+And user verifies product description "Pine Green and Citron" is displayed
+Then user clicks on the "Nike SB Dunk Low x Concepts"
+And user verifies product name "Air Force 1 x Ambush" is displayed
+And user verifies product description "Pine Green and Citron" is displayed
+And user verifies price item "$190.00"
+Then user verifies SKU Number "SKU: DV3464-300"
+
+
+
+
+
